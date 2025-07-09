@@ -16,26 +16,10 @@ function download(url) {
     })
 }
 
-download(url1)
-.then(result => {
-    console.log(result)
-    return download(url2)
-})
-.then(result => {
-    console.log(result)
-    return download(url3)
-})
-.then(result => {
-    console.log(result)
-})
+async function start() {
+    console.log(await download(url1))
+    console.log(await download(url2))
+    console.log(await download(url3))
+}
 
-/* download(url1)
-.then(result => {
-    console.log(result)
-})
-.catch(err => {
-    console.log(err)
-})
-.finally(() => {
-    console.log('End of process')
-}) */
+start()
