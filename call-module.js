@@ -1,4 +1,6 @@
 const myModule = require('./modules/my-module')
-console.log(myModule.hello)
+const getCurrentTime = require('./modules/my-module').getCurrentTime
+
 console.log(myModule.getCurrentTime())
-console.log(`result: ${myModule.add(5, 5)}`)
+console.log(getCurrentTime())
+console.log(myModule.formatMoney(5000000))
