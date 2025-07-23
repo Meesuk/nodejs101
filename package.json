@@ -1,0 +1,28 @@
+{
+  "name": "nodejs101",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Meesuk/nodejs101#readme",
+  "bugs": {
+    "url": "https://github.com/Meesuk/nodejs101/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meesuk/nodejs101.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
