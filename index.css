@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #353535;
+}
+header > ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+header > ul a {
+    color: #fff;
+    padding-right: 2rem;
+}
+article {
+    margin: 0 auto;
+    max-width: 1140px;
+}
